@@ -1,3 +1,4 @@
+#pythonの文法～データー構造
 #文字列長さ
 f = ("いろはにほへと")
 print(len(f))
@@ -105,3 +106,21 @@ print(w|q)
 print(w-q)
 #集合A^集合B　対象差（集合Aまたは集合Bの一方だけが含む要素の集合）
 print(w^q)
+
+#辞書の初期化
+prefix = {'kiro' : 1000, 'mega' : 1000000}
+print(prefix)
+
+#辞書に要素の追加
+prefix['giga'] = 1000000000
+print(prefix)
+
+#辞書内の要素の削除
+del prefix['kiro']
+print(prefix)
+
+#辞書内の要素の有無
+print('kiro' in prefix)
+print('kiro' not in prefix)
+print('mega' in prefix)
+print('mega' not in prefix)
