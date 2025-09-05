@@ -77,7 +77,7 @@ for i, x in enumerate(fruit):
 fruit = ['apple' , 'banana', 'coconut']
 for i, x in enumerate(fruit, 100):
     print(i, x)
-    
+
 #while文
 x = 1
 while x < 1000:
